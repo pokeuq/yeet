@@ -29,9 +29,9 @@ body{
     overflow: hidden;
 }
 .container{
-    max-width: 1086px;
+    max-width: 1076px;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 .ibg{
     position: relative;
