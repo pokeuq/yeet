@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <title>yeet</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap " rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
-</head>
+</head> 
 <body>
     <div class="wrapper">
         <header class="header">
@@ -186,34 +186,42 @@
                     </div>
                 </div>
             </section>
-            <section class="who">
-                <div class="who__container container">
-                    <div class="who__header">
-                        <h3 class="who__title header__title">Who We Are</h3>
-                        <p class="who__subtitle header__subtitle">Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics </p>
-                    </div>
-                    <div class="who__body">
-                        <div class="who__image">
-                            <img class="who__cover_img" src="img/who/main.png" alt="cover">
+            <section class="page__whoweare whoweare">
+                <div class="whoweare__container container">
+                    <div class="whoweare__header header-block">
+                        <h2 class="header-block__title header__title">Who We Are</h2>
+                        <div class="header-block__sub-title header__subtitle">
+                            Problems trying to resolve the conflict between the two major realms <br> of Classical physics: Newtonian mechanics
                         </div>
-                        <div class="who__content">
-                            <h3 class="content__title header__title">Most trusted in <br> our field</h3>
-                            <p class="content__subtitle header__subtitle">Most calendars are designed for teams. Slate <br> is designed for freelancers who want a <br> simple way to plan their schedule.</p>
-                            <div class="content__points">
-                                <div class="point__first">
-                                    <img src="img/who/icons/01.svg" alt="" class="who__icon">
-                                    <div class="point__text">
-                                        <h4 class="point__title">the quick fox jumps over the lazy dog</h4>
+                    </div>
+                    <div class="whoweare__body">
+                        <div class="whoweare__video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_jwWlpype9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="whoweare__content">
+                            <div class="whoweare__top">
+                                <h2 class="whoweare__title">Most trusted in our field</h2>
+                                <div class="whoweare__text">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</div>
+                            </div>
+                            <div class="whoweare__items">
+                                <div class="whoweare__item item-whoweare">
+                                    <div class="item-whoweare__icon">
+                                        <img src="img/who/icons/01.svg" alt="">
+                                    </div>
+                                    <div class="item-whoweare__body">
+                                        <div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
+                                        <div class="item-whoweare__text">Things on a very small scale Things on a very small scaleThings on a very small scaleThings on a very small scale</div>
                                     </div>
                                 </div>
-                                <p class="point__subtitle header__subtitle">Things on a very small scale ...</p>
-                                <div class="point__first">
-                                    <img src="img/who/icons/02.svg" alt="" class="who__icon">
-                                    <div class="point__text">
-                                        <h4 class="point__title">the quick fox jumps over the lazy dog</h4>
+                                <div class="whoweare__item item-whoweare">
+                                    <div class="item-whoweare__icon">
+                                        <img src="img/who/icons/02.svg" alt="">
+                                    </div>
+                                    <div class="item-whoweare__body">
+                                        <div class="item-whoweare__title">the quick fox jumps over the lazy dog</div>
+                                        <div class="item-whoweare__text">Things on a very small scale Things on a very small scaleThings on a very small scaleThings on a very small scale</div>
                                     </div>
                                 </div>
-                                <p class="point__subtitle header__subtitle">Things on a very small scale ...</p>
                             </div>
                         </div>
                     </div>
@@ -221,7 +229,7 @@
             </section>
             <section class="logos">
                 <div class="logos__container container">
-                    <div class="logos__head">
+                    <div class="logos__body">
                         <div class="logo__column">
                             <div class="logo__item">
                                 <a href="#" class="logo__image"><img src="img/logos/01.svg" alt=""></a>
@@ -249,19 +257,20 @@
                             </div>
                         </div>       
                     </div>
-                    <div class="logos__email">
-                        <div class="email__column">
-                            <h3 class="logos__email_text">Subscribe For Latest <br>
-                                Newsletter</h3>
-                        </div>
-                        <div class="email__column">
-                                <input class="logos_email_input" placeholder="Your email" type="email" name="email">
-                                <button class="logos__email_btn" type="reset">Subscribe</button>
-                        </div>
+                    
+                </div>
+            </section>
+            <section class="page__subscribe subscribe">
+                <div class="subscribe__container _container">
+                    <div class="subscribe__body">
+                        <h4 class="subscribe__title">Subscribe For Latest Newsletter</h4>
+                        <form action="#" class="subscribe__form">
+                            <input autocomplete="off" type="email" required name="form[]" placeholder="Your Email" class="subscribe__input">
+                            <button type="submit" class="subscribe__button">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </section>
-            <div class="logos__blue-line"></div>
             <section class="get">
                 <div class="get__container container">
                     <div class="get__header">
@@ -321,54 +330,57 @@
                     </div>
                 </div>
             </section>
-        </main>
-        <footer class="footer">
-            <section class="agency">
-                <div class="agency__container container">
-                    <div class="agency__text">
-                        <h3 class="agency__title">Consulting Agency For Your Business</h3>
-                        <p class="agency__subtitle header__subtitle">the quick fox jumps over the lazy dog</p>
+            <section class="page__contact contact">
+                <div class="contact__container container">
+                    <div class="contact__body">
+                        <div class="contact__content">
+                            <h4 class="contact__title">Consulting Agency For Your Business</h4>
+                            <div class="contact__text">the quick fox jumps over the lazy dog</div>
+                        </div>
+                        <a href="" class="contact__button">Contact Us</a>
                     </div>
-                    <a class="agency__button">Contact Us</a>
                 </div>
             </section>
+        </main>
+        <footer class="footer">
+            
             <section class="list">
                 <div class="list__container container">
                     <div class="list__body">
                         <div class="list__item">
                             <p class="list__title">Company Info</p> 
                             <ul class="lists">
-                                <li class="points">About Us</li>
-                                <li class="points">Carrier</li>
-                                <li class="points">We are hiring</li>
-                                <li class="points">Blog</li>
+                                <li class="points"><a href="" class="menu-footer__link">About Us</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Carrier</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">We are hiring</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Blog</a></li>
                             </ul>
                         </div>
                         <div class="list__item">
                             <p class="list__title">Legal</p>
                             <ul class="lists">
-                                <li class="points">About Us</li>
-                                <li class="points">Carrier</li>
-                                <li class="points">We are hiring</li>
-                                <li class="points">Blog</li>
+                                <li class="points"><a href="" class="menu-footer__link">About Us</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Carrier</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">We are hiring</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Blog</a></li>
                             </ul>
                         </div>
                         <div class="list__item">
                             <p class="list__title">Features</p>
                             <ul class="lists">
-                                <li class="points">Business Marketing</li>
-                                <li class="points">User Analytic</li>
-                                <li class="points">Live Chat</li>
-                                <li class="points">Unlimited Support</li>
+                                <li class="points"><a href="" class="menu-footer__link">About Us</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Carrier</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">We are hiring</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Blog</a></li>
                             </ul>
                         </div>
                         <div class="list__item">
                             <p class="list__title">Resources</p>
                             <ul class="lists">
-                                <li class="points">IOS & Android</li>
-                                <li class="points">Watch a Demo</li>
-                                <li class="points">Customers</li>
-                                <li class="points">API</li>
+                                <li class="points"><a href="" class="menu-footer__link">About Us</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Carrier</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">We are hiring</a></li>
+                                <li class="points"><a href="" class="menu-footer__link">Blog</a></li>
                             </ul>
                         </div>
                         <div class="list__item">
@@ -394,8 +406,10 @@
                                 <a href="#"><img src="img/footer/social/02.svg" alt="Instagram"></a>
                                 <a href="#"><img src="img/footer/social/03.svg" alt="Twitter"></a>
                                 <a href="#"><img src="img/footer/social/04.svg" alt="Youtube"></a>
-                            </div>
+                            </div> 
                         </div>
+
+                        
                     </div>
                 </div>
             </section>
