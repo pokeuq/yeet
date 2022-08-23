@@ -57,7 +57,10 @@ body{
     letter-spacing: 0.2px;
     color: #737373;
 }
-
+path{transition: all 0.9s ease 0.1s;}
+div{transition: all 0.9s ease 0.1s;}
+a{transition: all 0.9s ease 0.1s;}
+p{transition: all 0.9s ease 0.1s;}
 
 /* ----HEADER-------------------------------------------------------- */
 .header {
