@@ -820,6 +820,7 @@ p{transition: all 0.9s ease 0.1s;}
     display: flex;
 }
 .get__column {
+    border-radius: 8px;
 }
 .get__column_1{
     align-self: center;
