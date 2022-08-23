@@ -1025,6 +1025,11 @@ p{transition: all 0.9s ease 0.1s;}
 }
 .menu-footer__link{
     color:inherit;
+    transition: all 0.1s ease 0s;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.menu-footer__link:hover{
+    border-bottom: 2px solid white;
 }
 .points {
     display: flex;
