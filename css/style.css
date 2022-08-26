@@ -1110,7 +1110,7 @@ p{transition: all 0.7s ease 0.1s;}
 }
 .menu-footer__link{
     color:inherit;
-    transition: all 0.1s ease 0s;
+    transition: all 0.2s ease 0s;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 .menu-footer__link:hover{
@@ -1200,9 +1200,6 @@ p{transition: all 0.7s ease 0.1s;}
     .social__body{
         flex-wrap: wrap;
     }
-}
-path{
-    transform: scale(1.04,1.04);
 }
 
 /* ----SOCIALS-------------------------------------------------------- */
